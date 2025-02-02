@@ -4,8 +4,7 @@ name: Test Action
 on:
   push:
     branches:
-      - main  # This will trigger the action when changes are pushed to the main branch
-
+      - main  
 jobs:
   test:
     runs-on: ubuntu-latest
